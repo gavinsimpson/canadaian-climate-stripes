@@ -1,0 +1,28 @@
+Package: canadastripes
+Version: 0.0-1
+Date: 2019-07-08
+Title: Create climate stripes for Canada
+Authors@R: c(person(given = "Gavin L.", family = "Simpson",
+                    email = "ucfagls@gmail.com",
+                    role = c("aut","cre"),
+		    comment = c(ORCID = "0000-0002-9084-8413")))
+Maintainer: Gavin L. Simpson <ucfagls@gmail.com>
+Depends:
+    R (>= 3.5.0)
+Imports:
+    crul,
+    ggplot2,
+    tibble,
+    dplyr,
+    tidyr,
+    grid,
+Suggests:
+    testthat,
+    vdiffr
+Description: Climate stripes for Canada - TODO
+License: MIT + file LICENSE
+LazyData: true
+URL: https://github.com/gavinsimpson/canadian-climate-stripes
+BugReports: https://github.com/gavinsimpson/canadian-climate-stripesissues
+Roxygen: list(markdown = TRUE)
+Encoding: UTF-8

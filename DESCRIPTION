@@ -11,6 +11,7 @@ Depends:
     R (>= 3.5.0)
 Imports:
     crul,
+    jsonlite,
     ggplot2,
     tibble,
     dplyr,

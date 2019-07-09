@@ -6,8 +6,8 @@
 ##'
 ##' @author Gavin L. Simpson
 ##'
-##' @importFrom crul HttClient
-##' @importFrom jsonlite fromJason
+##' @importFrom crul HttpClient
+##' @importFrom jsonlite fromJSON
 `n_stations` <- function() {
     ## create a HttpClient object, defining the url
     url <- "https://geo.weather.gc.ca/geomet/features/collections/ahccd-stations/items?limit=0"
@@ -27,8 +27,8 @@
 ##'
 ##' @author Gavin L. Simpson
 ##'
-##' @importFrom crul HttClient
-##' @importFrom jsonlite fromJason
+##' @importFrom crul HttpClient
+##' @importFrom jsonlite fromJSON
 `ahccd_request` <- function(url) {
     cli <- HttpClient$new(url = url)
     ## do a GET request

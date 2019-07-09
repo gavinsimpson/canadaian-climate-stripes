@@ -29,3 +29,4 @@ URL: https://github.com/gavinsimpson/canadian-climate-stripes
 BugReports: https://github.com/gavinsimpson/canadian-climate-stripesissues
 Roxygen: list(markdown = TRUE)
 Encoding: UTF-8
+RoxygenNote: 6.1.1

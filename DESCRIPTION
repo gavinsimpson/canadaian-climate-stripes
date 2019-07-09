@@ -12,6 +12,8 @@ Depends:
 Imports:
     crul,
     jsonlite,
+    glue,
+    rlang,
     ggplot2,
     tibble,
     dplyr,

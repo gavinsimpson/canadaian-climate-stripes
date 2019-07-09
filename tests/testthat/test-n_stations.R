@@ -11,4 +11,4 @@ test_that("n_stations() returns an integer", {
 
 test_that("n_stations() returns a single integer", {
     expect_length(nstns, 1L)
-}
+})

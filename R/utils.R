@@ -6,7 +6,7 @@
 ##'
 ##' @importFrom crul HttClient
 ##' @importFrom jsonlite fromJason
-n_stations <- function() {
+`n_stations` <- function() {
     ## create a HttpClient object, defining the url
     url <- "https://geo.weather.gc.ca/geomet/features/collections/ahccd-stations/items?limit=0"
     cli <- HttpClient$new(url = url)
@@ -20,3 +20,4 @@ n_stations <- function() {
     ## return the number of records matched
     js[["numberMatched"]]
 }
+
